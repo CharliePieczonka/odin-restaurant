@@ -1,6 +1,10 @@
 const contact = (function () {
 
-    return { }
+    let displayContact = () => {
+
+    }
+
+    return { displayContact }
 })();
 
 export { contact };
