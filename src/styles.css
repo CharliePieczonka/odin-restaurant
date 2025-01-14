@@ -31,11 +31,14 @@ button {
     color:#EDF4C2;
     border-color: #E7D283;
     background-color: black;
-    border-bottom: 0;
 }
 
 button:hover {
     background-color: #292929;
+}
+
+#home {
+    border-bottom: 2px outset black;
 }
 
 #title {

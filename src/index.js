@@ -10,22 +10,34 @@ let displayController = (function () {
     let contactButton = document.querySelector("#contact");
 
     homeButton.addEventListener("click", () => {
+        resetButtonBorders();
+        homeButton.style.borderBottom = "2px outset black";
         clearContent();
         home.displayHome();
     });
 
     menuButton.addEventListener("click", () => {
+        resetButtonBorders();
+        menuButton.style.borderBottom = "2px outset black";
         clearContent();
         menu.displayMenu();
     });
 
     contactButton.addEventListener("click", () => {
+        resetButtonBorders();
+        contactButton.style.borderBottom = "2px outset black";
         clearContent();
         contact.displayContact();
     });
 
     let clearContent = () => {
         content.innerHTML = "";
+    }
+
+    let resetButtonBorders = () => {
+        homeButton.style.borderBottom = "2px outset #E7D283";
+        menuButton.style.borderBottom = "2px outset #E7D283";
+        contactButton.style.borderBottom = "2px outset #E7D283";
     }
 
 
