@@ -1,6 +1,5 @@
 const menu = (function () {
 
-    
     let displayMenu = () => {
         let burgers = ["Plain Jane", "Bacon Cheeseburger", "Mushroom Melt Burger", "Veggie Burger"];
         let prices = ["$16", "$18", "$19", "$15"];
