@@ -40,7 +40,6 @@ let displayController = (function () {
         contactButton.style.borderBottom = "2px outset #E7D283";
     }
 
-
     return { }
 })();
 
